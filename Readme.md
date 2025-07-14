@@ -26,3 +26,6 @@ expression := `(user.country == "DE" && user.age > 30) || user.isBetaUser == tru
 result, err := Evaluate(expression, context) // Should return true
 
 ```
+
+
+Since I am also learning golang as part of this project, let us also compile this to a WASM binary and ship it.
